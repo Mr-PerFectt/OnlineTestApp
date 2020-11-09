@@ -11,6 +11,7 @@ import { Option, Question, Quiz, QuizConfig } from '../models/index';
   providers: [QuizService]
 })
 export class QuizComponent implements OnInit {
+  myimage:string="assets/quiz.png"
   quizes: any[];
   quiz: Quiz = new Quiz(null);
   mode = 'quiz';
